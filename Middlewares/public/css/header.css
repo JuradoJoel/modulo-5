@@ -1,0 +1,28 @@
+.header-horizontal  nav{
+    text-align: right;
+}
+.header-horizontal  div{
+    text-align: right;
+}
+
+.header-horizontal  nav ul{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.header-horizontal  nav ul li {
+    display: inline;
+    border-left: 1px solid black;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.header-horizontal  nav ul li:last-child{
+    border-right: 1px solid black;
+}
+
+.header-horizontal  nav ul li a{
+    color: black;
+    text-transform: uppercase;
+}
